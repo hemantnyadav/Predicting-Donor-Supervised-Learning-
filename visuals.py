@@ -137,7 +137,7 @@ def feature_plot(importances, X_train, y_train):
     pl.xlim((-0.5, 4.5))
     pl.ylabel("Weight", fontsize = 9)
 	
-    pl.xlabel("Feature", fontsize = 5)
+    pl.xlabel("Feature", fontsize = 9)
 	
     
     pl.legend(loc = 'upper center')
